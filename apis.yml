@@ -1,8 +1,13 @@
 aid: candid-co
 name: Candid Co.
-description: 'Candid Co. is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Candid Co. (candidco.com), operating today as CandidPro, is a New York-based dental-technology
+  company that delivers custom clear aligners for teeth straightening. Founded in 2017 as a direct-to-consumer
+  brand backed by Bessemer Venture Partners, Greycroft, and e.ventures, Candid pioneered at-home impression
+  kits and remote monitoring, and has since pivoted to a dentist-directed model: aligners are prescribed and
+  overseen by a licensed dentist with orthodontist support and convenient virtual visits (CandidMonitoring).
+  Candid handles the clinical treatment plan, 3D-printed aligner manufacturing, and patient communication for
+  crowding and common bite misalignments. This is a consumer/health brand with no public developer API; this
+  profile captures its identity, domain security posture, and commercial link properties.'
 url: https://raw.githubusercontent.com/api-evangelist/candid-co/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/601a0e7f102ff5b24874c42b/690b7c3992c2b1e4202f8198_Patient-Home_Meta-Data-Image_1200x630.png
 tags:
 - Company
 - Consumer
+- Clear Aligners
+- Orthodontics
+- Dental
+- Teledentistry
+- Consumer Health
+- Direct-to-Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/candid-co-domain-security.yml
 - type: Website
   url: https://www.candidco.com/
+- type: Pricing
+  url: https://www.candidco.com/pricing
+- type: TermsOfService
+  url: https://www.candidco.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.candidco.com/legal/privacy-policy
+- type: Support
+  url: https://www.candidco.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
