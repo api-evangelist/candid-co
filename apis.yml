@@ -26,7 +26,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://cdn.prod.website-files.com/601a0e7f102ff5b24874c42b/690b7c3992c2b1e4202f8198_Patient-Home_Meta-Data-Image_1200x630.png
